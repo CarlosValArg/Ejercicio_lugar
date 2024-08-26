@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./Elementos_EL/bk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.titulo{
+    text-align: center;
+    padding: 50px 0px 20px 0px;
+}
+.titulo h1{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.container{
+    width: 50%;
+    height: 400px;
+    background: white;
+    margin: 0 auto;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 15px 40px black;
+}
+.container .izq{
+    float: left;
+    width: 50%;
+    height: 400px;
+    background: url(./Elementos_EL/bcteo.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+.container .der{
+    float: right;
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+}
+.fornom{
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    height: 400px;
+    background: white;
+}
+.fornom p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: rgb(44, 230, 143);
+}
+.fornom input{
+    margin-bottom: 10px;
+    width: 100%;
+}
+#env{
+    border: none;
+    outline: none;
+    height: 35px;
+    color: white;
+    background: rgb(44, 43, 43);
+}

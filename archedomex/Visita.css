@@ -1,0 +1,65 @@
+body{
+    background-image: url(./Elementos_EL/teov.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.lugs{
+    text-align: center;
+    padding: 50px 0px 20px 0px;
+}
+.lugs h1{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, rgba(93,221,70,1) 32%, rgba(255,255,255,1) 34%, rgba(255,255,255,1) 63%, rgba(222,47,32,1) 65%);
+    text-transform: uppercase;
+    font-size: 30px;
+}
+#teo{
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#mp{
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#zac{
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.conteo{
+    width: 900px;
+    height: 800px;
+    border: 7px solid red;
+    background-color: rgb(253, 64, 39);
+    font-family: Cambria;
+    font-size: 15px;
+    color:yellow;
+}
+.contmp{
+    width: 900px;
+    height: 800px;
+    border: 7px solid yellow;
+    background-color:rgb(255, 255, 160);
+    font-family: Cambria;
+    font-size: 15px;
+    color: green;
+}
+.contzac{
+    width: 900px;
+    height: 800px;
+    border: 5px solid green;
+    background-color: rgb(118, 255, 105);
+    font-family: Cambria;
+    font-size: 15px;
+    color:red;
+}
